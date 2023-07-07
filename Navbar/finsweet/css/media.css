@@ -1,0 +1,13 @@
+@media screen and (max-width: 1990px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media(max-width:992px){
+  .header-right{
+    display: none;
+  }
+  .hamburger{
+    display: inline-block;
+  }
+}

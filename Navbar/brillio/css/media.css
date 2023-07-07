@@ -1,0 +1,27 @@
+@media screen and (max-width: 1990px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media(min-width:992px){
+  .navbar-right .menu{
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hamburger {
+    display: block;
+  }
+  .navbar-right .menu {
+    display: none;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    left: 0%;
+    top: 50;
+    padding: 30px;
+  }
+  .navbar-right {
+    width: 100%;
+  }
+}

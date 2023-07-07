@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title>Navbar</title>
+</head>
+
+<body>
+  <div class="navbar-wrap">
+    <div class="container">
+      <div class="navbar-coloumn">
+        <div class="navbar-left">
+          <img width="114" height="48"
+            src="https://bril.wpenginepowered.com/wp-content/uploads/2022/01/Brillio_Primary-Logo_12.2021.svg"
+            class="custom-logo" alt="Brillio" decoding="async">
+        </div>
+        <div class="navbar-right">
+          <button class="hamburger">&#9776;</button>
+          <ul class="menu">
+            <li><a href="#">Services <img src="images/nav-arrow-down.svg" alt="nav-arrow-down"></a>
+              <!-- <ul class="dropdown">
+                <div class="dropdown-left">
+                  <li><a href="#">Platform & Project Engineering</a></li>
+                  <li><a href="#">Data Analaystics & Artificial Intellgence </a></li>
+                </div>
+                <div class="dropdown-right">
+                  <li><a href="#">Customer Experience Services</a></li>
+                  <li><a href="#">Digitial Infrastructure</a></li>
+                </div>
+              </ul> -->
+            </li>
+            <li><a href="#">Our Approach <img src="images/nav-arrow-down.svg" alt="nav-arrow-down"></a>
+              <!-- <ul class="dropdown">
+                <div class="dropdown-left">
+                  <li><a href="#">Our Approach</a></li>
+                  <li><a href="#">Technology, Media & Entertment Techcommunication</a></li>
+                  <li><a href="#">Healthcare and life Science</a></li>
+                </div>
+                <div class="dropdown-right">
+                  <li><a href="#">Banking, Finicial Services and Insurence</a></li>
+                  <li><a href="#">Retail, Consumer Products and Distrubuction</a></li>
+                  <li><a href="#">Private Equity</a></li>
+                </div>
+              </ul> -->
+            </li>
+            <li><a href="#">About Brillio <img src="images/nav-arrow-down.svg" alt="nav-arrow-down"></a>
+              <!-- <ul class="dropdown">
+                <div class="dropdown-left">
+                  <li><a href="#">About Brillio</a></li>
+                  <li><a href="#">Alliances and Partnship</a></li>
+                  <li><a href="#">News Room</a></li>
+                </div>
+                <div class="dropdown-right">
+                  <li><a href="#">Our Culture</a></li>
+                  <li><a href="#">Our Officer</a></li>
+                </div>
+              </ul> -->
+            </li>
+            <li><a href="#">Insights</a></li>
+            <li><a href="#">Let's Connect</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script>
+
+    $(".hamburger").click(function () {
+      $(".navbar-right .menu").slideToggle("slow");
+    });
+  </script>
+
+
+</body>
+
+</html>

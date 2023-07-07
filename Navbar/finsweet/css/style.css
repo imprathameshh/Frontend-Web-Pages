@@ -1,0 +1,64 @@
+* {
+  color: #ffff;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.header-wrap {
+  background: #1c1e53;
+  width: 100%;
+  padding: 16px 0;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-menu-list {
+  display: flex;
+}
+.header-menu-list > li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #bbbbcb;
+  opacity: 0.5;
+  padding-left: 32px;
+}
+.header-menu-list > li:first-child {
+  padding-left: 0;
+}
+.header-right > a {
+  padding: 16px 48px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 41px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 48px;
+}
+.hamburger {
+}
+.hamburger .line {
+  width: 30px;
+  height: 5px;
+  background: #fff;
+  display: block;
+  margin: 8px auto;
+  transition: all 0.3s ease-in-out;
+}
