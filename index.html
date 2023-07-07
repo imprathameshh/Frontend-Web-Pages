@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <!-- Navbar  -->
+
+  <div class="main-wrap">
+    <div class="header-wrap">
+      <div class="container">
+        <div class="header-content">
+          <div class="brand-logo">
+            <a href="index.html">
+              <img src="images/LOGO.svg" alt="">
+            </a>
+          </div>
+          <div class="media-btn">
+            <a href="#" class="top-search-link">
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.7812 13.8344L12.6656 10.7188C12.525 10.5781 12.3344 10.5 12.1344 10.5H11.625C12.4875 9.39688 13 8.00937 13 6.5C13 2.90937 10.0906 0 6.5 0C2.90937 0 0 2.90937 0 6.5C0 10.0906 2.90937 13 6.5 13C8.00937 13 9.39688 12.4875 10.5 11.625V12.1344C10.5 12.3344 10.5781 12.525 10.7188 12.6656L13.8344 15.7812C14.1281 16.075 14.6031 16.075 14.8938 15.7812L15.7781 14.8969C16.0719 14.6031 16.0719 14.1281 15.7812 13.8344ZM6.5 10.5C4.29063 10.5 2.5 8.7125 2.5 6.5C2.5 4.29063 4.2875 2.5 6.5 2.5C8.70938 2.5 10.5 4.2875 10.5 6.5C10.5 8.70938 8.7125 10.5 6.5 10.5Z"
+                  fill="#272D4E" />
+              </svg>
+              <div class="togglesearch">
+                <input type="text" placeholder="" />
+                <input type="button" value="Search" />
+              </div>
+            </a>
+
+            <div class="hamburger" id="hamburger-1">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="#sell">Sell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#marketplace">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#community">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#develop">Develop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resources">Resources</a>
+            </li>
+          </ul>
+          <div class="header-right">
+            <a href="#" class="login-link">Login</a>
+            <a href="#" class="get-started-link">Get Started</a>
+            <a href="#" class="search-link">
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.7812 13.8344L12.6656 10.7188C12.525 10.5781 12.3344 10.5 12.1344 10.5H11.625C12.4875 9.39688 13 8.00937 13 6.5C13 2.90937 10.0906 0 6.5 0C2.90937 0 0 2.90937 0 6.5C0 10.0906 2.90937 13 6.5 13C8.00937 13 9.39688 12.4875 10.5 11.625V12.1344C10.5 12.3344 10.5781 12.525 10.7188 12.6656L13.8344 15.7812C14.1281 16.075 14.6031 16.075 14.8938 15.7812L15.7781 14.8969C16.0719 14.6031 16.0719 14.1281 15.7812 13.8344ZM6.5 10.5C4.29063 10.5 2.5 8.7125 2.5 6.5C2.5 4.29063 4.2875 2.5 6.5 2.5C8.70938 2.5 10.5 4.2875 10.5 6.5C10.5 8.70938 8.7125 10.5 6.5 10.5Z"
+                  fill="#272D4E" />
+              </svg>
+              <div class="togglesearch">
+                <input type="text" placeholder="" />
+                <input type="button" value="Search" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="images/Vector.svg" class="banner-vector" alt="">
+
+    <!-- Banner Wrap  -->
+
+    <div class="banner-wrap" id="sell">
+      <div class="banner-column">
+        <div class="banner-column-left">
+          <h1>Building exactly the eCommerce website you want.</h1>
+          <p>WooCommerce is a customizable, open-source eCommerce platform built on WordPress. Get started
+            quickly and make your way.</p>
+          <div class="banner-btn">
+            <a href="#" class="banner-btn-primary blue-link">Start a New Store</a>
+            or<a href="#" class="banner-link">Customize & Extend ›</a>
+          </div>
+        </div>
+        <div class="banner-column-right">
+          <img src="images/PRODUCT.svg" class="product-img" alt="">
+          <img src="images/Group 10.svg" class="laugh-img" alt="">
+          <img src="images/Group 9.svg" class="pay-img" alt="">
+          <img src="images/cart.svg" class="cart-img" alt="">
+          <img src="images/safe.svg" class="safe-img" alt="">
+          <img src="images/sale.svg" class="sale-img" alt="">
+          <img src="images/Group 7.svg" class="groupleft-img" alt="">
+          <img src="images/Group 8.svg" class="groupmiddle-img" alt="">
+          <img src="images/Group 5.svg" class="groupright-img" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="e-coomerce">
+      <h2>Your eCommerce made simple</h2>
+    </div>
+
+  </div>
+
+  <!-- Feature-Section  -->
+  <div class="feature-wrap " id="marketplace">
+    <div class="feature-content">
+      <div class="feacture-section-card">
+        <ul class="row feacture-section-card-ul ">
+          <li class="col-md-4 col-sm-12">
+            <div class="feature-card">
+              <div class="feature-card-img feature-card-img-start">
+                <img src="images/feature-background-1.png" alt="">
+                <img src="images/feature-1-a.png" alt="">
+                <img src="images/feature-1-b.png" alt="">
+              </div>
+              <div class="feature-card-content card-content-start">
+                <h3>All You Need to Start</h3>
+                <p> Add WooCommerce plugin to any WordPress site and <br> set up a new store in minutes.</p>
+                <a href="#">Ecommerce for Wordpress › </a>
+              </div>
+            </div>
+          </li>
+          <li class="col-md-4 col-sm-12">
+            <div class="feature-card">
+              <div class="feature-card-img feature-card-img-middle">
+                <img src="images/feature-background-2.png" alt="">
+                <img src="images/feature-2-a.png" alt="">
+                <img src="images/feature-2-b.png" alt="">
+                <img src="images/feature-2-c.png" alt="">
+                <img src="images/feature-2-d.png" alt="">
+                <img src="images/feature-2-f.png" alt="">
+              </div>
+              <div class="feature-card-content card-content-middle">
+                <h3>Customize and Extend</h3>
+                <p> From subscriptions to gym classes to luxury cars, <br> WooCommerce is fully customizable.</p>
+                <a href="#">Browse Extensions ›</a>
+              </div>
+            </div>
+          </li>
+          <li class="col-md-4 col-sm-12">
+            <div class="feature-card">
+              <div class="feature-card-img feature-card-img-end">
+                <img src="images/feature-background-3.png" alt="">
+                <img src="images/feature-3-a.png" alt="">
+                <img src="images/feature-3-b.png" alt="">
+                <img src="images/feature-3-c.png" alt="">
+              </div>
+              <div class="feature-card-content">
+                <h3>Active Community</h3>
+                <p>WooCommerce is one of the fastest-growing <br> eCommerce communities. </p>
+                <a href="#">Check our Forums ›</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section-3  -->
+
+  <div class="know-us-wrap" id="develop">
+    <div class="know-us-content-top-img">
+      <img class="dotted-top" src="images/Union.svg" alt="" />
+    </div>
+    <div class="row justify-content-center">
+      <div class="know-us-top col-lg-9">
+        <ul class="know-us-list">
+          <li class="row">
+            <div class="know-us-images-top col-lg-5">
+              <img class="ellipse-1" src="images/Ellipse 32.svg" alt="" />
+              <img class="ellipse-2" src="images/Ellipse 31.svg" alt="" />
+              <img class="main-image-top" src="images/Rectangle 236.svg" alt="" />
+              <img class="dotted-top" src="images/section-3-col.svg" alt="" />
+            </div>
+            <div class="know-us-content-top col-lg-7 section-content">
+              <div class="know-us-content-top-content">
+                <h3>Develop Without Limits</h3>
+                <p>
+                  WooCommerce is developer friendly, too. Built with a REST API,
+                  WooCommerce is scalable and can integrate with virtually any
+                  service. Design a complex store from scratch, extend a store
+                  for a client, or simply add a single product to a WordPress
+                  site—your store, your way.
+                </p>
+                <a class="btn-2 btn-read" href="#">Read the Documentation</a>
+              </div>
+            </div>
+          </li>
+          <li class="know-us-bottom row">
+            <div class="know-us-images-bottom col-lg-5">
+              <img src="images/Rectangle 233.svg" alt="" />
+              <img src="images/Ellipse 34.svg" alt="" />
+              <img src="images/Ellipse 32.svg" alt="" />
+              <img src="images/section-3-row.svg" alt="" />
+            </div>
+            <div class="know-us-content-bottom col-lg-7 section-content">
+              <h3>Know our Global Community</h3>
+              <p>
+                WooCommerce is one of the fastest-growing eCommerce
+                communities. We’re proud that the helpfulness of the community
+                and a wealth of online resources are frequently cited as
+                reasons our users love it. There are 80+ meetups worldwide!
+              </p>
+              <a class="btn-2 btn-read" href="#">Read the Documentation</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section-4  -->
+
+  <div class="section-four-wrap">
+    <div class="testmonial-wrap">
+      <div class="testmonial-content">
+        <div class="testmonial-head">
+          <h2>Trusted by Agencies <br> & Store Owners</h2>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/testim-img.svg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/testim-img.svg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/testim-img.svg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <svg width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+              d="M8.08689 0.916142C8.21994 0.971349 8.34078 1.05226 8.4425 1.15424C8.54449 1.25597 8.6254 1.37681 8.6806 1.50985C8.73581 1.64289 8.76423 1.78552 8.76423 1.92956C8.76423 2.0736 8.73581 2.21623 8.6806 2.34927C8.6254 2.48231 8.54449 2.60316 8.4425 2.70488L3.74066 7.40496H30.6344C30.9248 7.40496 31.2034 7.52033 31.4087 7.7257C31.6141 7.93107 31.7295 8.20961 31.7295 8.50004C31.7295 8.79048 31.6141 9.06902 31.4087 9.27438C31.2034 9.47975 30.9248 9.59513 30.6344 9.59513H3.74059L8.4425 14.2953C8.64813 14.5009 8.76365 14.7798 8.76365 15.0706C8.76365 15.3614 8.64813 15.6403 8.4425 15.8459C8.23688 16.0515 7.95798 16.1671 7.66718 16.1671C7.37638 16.1671 7.09749 16.0515 6.89186 15.8459L0.32135 9.2754C0.219368 9.17367 0.138458 9.05283 0.083252 8.91978C0.0280457 8.78674 -0.000370026 8.64412 -0.000370026 8.50008C-0.000370026 8.35603 0.0280457 8.21341 0.083252 8.08036C0.138458 7.94732 0.219368 7.82648 0.32135 7.72475L6.89186 1.15424C6.99359 1.05226 7.11443 0.971349 7.24747 0.916142C7.38052 0.860936 7.52314 0.83252 7.66718 0.83252C7.81123 0.83252 7.95385 0.860936 8.08689 0.916142Z"
+              fill="black" />
+          </svg>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <svg width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+              d="M23.6422 0.916142C23.5092 0.971349 23.3883 1.05226 23.2866 1.15424C23.1846 1.25597 23.1037 1.37681 23.0485 1.50985C22.9933 1.64289 22.9649 1.78552 22.9649 1.92956C22.9649 2.0736 22.9933 2.21623 23.0485 2.34927C23.1037 2.48231 23.1846 2.60316 23.2866 2.70488L27.9885 7.40496H1.09472C0.804284 7.40496 0.525746 7.52033 0.320377 7.7257C0.115009 7.93107 -0.000366211 8.20961 -0.000366211 8.50004C-0.000366211 8.79048 0.115009 9.06902 0.320377 9.27438C0.525746 9.47975 0.804284 9.59513 1.09472 9.59513H27.9885L23.2866 14.2953C23.081 14.5009 22.9655 14.7798 22.9655 15.0706C22.9655 15.3614 23.081 15.6403 23.2866 15.8459C23.4922 16.0515 23.7711 16.1671 24.0619 16.1671C24.3527 16.1671 24.6316 16.0515 24.8373 15.8459L31.4078 9.2754C31.5098 9.17367 31.5907 9.05283 31.6459 8.91978C31.7011 8.78674 31.7295 8.64412 31.7295 8.50008C31.7295 8.35603 31.7011 8.21341 31.6459 8.08036C31.5907 7.94732 31.5098 7.82648 31.4078 7.72475L24.8373 1.15424C24.7355 1.05226 24.6147 0.971349 24.4817 0.916142C24.3486 0.860936 24.206 0.83252 24.0619 0.83252C23.9179 0.83252 23.7753 0.860936 23.6422 0.916142Z"
+              fill="black" />
+          </svg>
+        </button>
+        <div class="testimonialimg-wrap">
+          <img src="images/Ellipse 15.svg" alt="">
+          <img src="images/Ellipse 29.svg" alt="">
+          <img src="images/Ellipse 27.svg" alt="">
+          <img src="images/Ellipse 28.svg" alt="">
+          <img src="images/Ellipse 26.svg" alt="">
+          <img src="images/Ellipse 30.svg" alt="">
+          <img src="images/testimonial-red-dot.svg" alt="">
+          <img src="images/testominal-dots-row.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- People Section  -->
+
+  <div class="people-wrap" id="community">
+    <div class="people-content">
+      <div class="people-head">
+        <h2>Supported by real people</h2>
+        <p>Our team of Happiness Engineers works remotely from 58 countries providing <br> customer support across multiple time zones.</p>
+        <div class="img-box">
+          <div class="inner">
+            <img src="images/image 24.svg" class="main-img">
+          </div>
+          <div class="people-head-img">
+            <img src="images/Ellipse 36.svg" alt="">
+            <img src="images/Ellipse 42.svg" alt="">
+            <img src="images/Group 13.svg" alt="">
+            <img src="images/Group 15.svg" alt="">
+            <img src="images/Ellipse 42.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="people-section-bottom">
+      <h3>WooCommerce - the <b>most customizable eCommerce <br> platform </b> for building <b>your online business.</b>
+      </h3>
+      <a href="#">Get Started </a>
+      <div class="cta-circle">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footert  -->
+
+  <div class="footer-section" id="resources">
+    <div class="footer-content">
+      <div class="footer-head">
+        <ul class="footer-head-ul">
+          <li>
+            <img src="images/footer-head-1.svg" alt="">
+            <h2>30 <b> money back guarantee</b></h2>
+          </li>
+          <li>
+            <img src="images/footer-head-2.svg" alt="">
+            <h2><b>Support</b> teams across the world</h2>
+          </li>
+          <li>
+            <img src="images/footer-head-3.svg" alt="">
+            <h2><b>Safe & Secure</b> online payment</h2>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-middle">
+        <div class="footer-middle-logo">
+          <img src="images/footer-logo.svg" alt="">
+        </div>
+        <div class="footer-middle-line">
+          <img src="images/footer-line.svg" alt="">
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-list">
+          <ul>
+            <li>Who we Are</li>
+            <li>About</li>
+            <li> Team</li>
+            <li> Work With Us</li>
+          </ul>
+          <ul>
+            <li>Woocommerce</li>
+            <li>Features</li>
+            <li>Payments</li>
+            <li>Marketing</li>
+            <li>Shipping</li>
+            <li>Extension Store</li>
+            <li>eCommerce blog </li>
+            <li>Development blog</li>
+            <li> Ideas board </li>
+            <li> Mobile App</li>
+            <li>Community</li>
+            <li>Style Guide</li>
+            <li> Email Newsletter </li>
+          </ul>
+          <ul>
+            <li>Other products</li>
+            <li> Storefront </li>
+            <li> WooSlider </li>
+            <li> Sensei </li>
+            <li>Sensei Extensions</li>
+          </ul>
+          <ul>
+            <li>Support</li>
+            <li>Documentation</li>
+            <li>Customizations</li>
+            <li>Support Policy</li>
+            <li>Contact</li>
+            <li>COVID-19 Resources</li>
+            <li>Privacy Notice for</li>
+            <li>California Users</li>
+          </ul>
+          <ul>
+            <li>We recommend</li>
+            <li>WooExperts</li>
+            <li>Hosting Solutions</li>
+            <li>Pre-sales FAQ</li>
+            <li>Success Stories</li>
+            <li> Design Feedback Group</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright  -->
+  
+  <div class="copyright-wrap">
+    <div class="copyright-content">
+      <div class="copyright-content-left col-lg-4 col-sm-12">
+        <ul>
+          <li><a href="#"><img src="images/tweet.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/facebook.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/wify.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/insta.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="copyright-content-right col-lg-8 col-sm-12">
+        <p>COPYRIGHT WOOCOMMERCE 2020 - TERMS & CONDITIONS PRIVACY POLICY </p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="./includes/jquery.min.js"></script>
+  <script src="./includes/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
