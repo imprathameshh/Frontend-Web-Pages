@@ -1,0 +1,390 @@
+@media (max-width: 991px) {
+  .section-title {
+    /* padding: 0 20px; */
+  }
+  .section-title > h2 {
+    font-size: 42px;
+  }
+  .mobile-menu-wrap {
+    display: block;
+  }
+  /* Header-Start */
+  .header-wrap{
+    margin-bottom: 50px;
+  }
+  .header-wrap .container{
+    padding: 0 20px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+  .header-content {
+    border-bottom: none;
+    padding: 50px 0;
+  }
+
+
+  /* Header-End  */
+
+  /* Banner-Start  */
+  .banner-wrap {
+    overflow: hidden;
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  .banner-content {
+    padding: 0 25px;
+  }
+  .banner-left {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  .banner-right {
+    width: 100%;
+  }
+  .page-head {
+    width: 100%;
+    max-width: 510px;
+  }
+  .page-head > h1 {
+    font-size: 55px;
+  }
+  .banner-left-content p {
+    font-size: 22px;
+    width: 100%;
+    padding-bottom: 23px;
+    max-width: 352px;
+  }
+  .banner-wordwild {
+    width: 100%;
+    max-width: 350px;
+  }
+  .banner-wordwild-content {
+    padding: 32px 0 29px 38px;
+  }
+  .banner-wordwild-left {
+    border-right: 0;
+    padding-bottom: 14px;
+    border-bottom: 2px solid rgba(161, 175, 191, 0.2);
+    margin-bottom: 33px;
+  }
+  .banner-wordwild-left p {
+    max-width: 175px;
+    width: 100%;
+  }
+  .banner-wordwild-right > p {
+    padding: 0;
+    width: 100%;
+    max-width: 120px;
+  }
+  .banner-right-square {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+  .banner-right-img {
+    width: 100%;
+    margin: 0 auto;
+    top: 30px;
+    left: 15%;
+  }
+  /* Banner-End  */
+
+  /* Snoring-Management-Start */
+  .snoring-management-wrap {
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+  .snoring-head {
+    padding-bottom: 50px;
+  }
+  .snoring-head > p {
+    font-size: 22px;
+  }
+  .snoring-content-left {
+    width: 100%;
+  }
+  .snoring-left-img {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .snoring-content-right {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  .snoring-content-list {
+    margin: 0 auto;
+  }
+  .snoring-content-list > ul > li{
+    margin-bottom: 20px;
+  }
+  /* Snoring-Management-End */
+
+  /* Feature-Weap-Start */
+  .feature-wrap {
+    padding-top: 0;
+    padding-bottom: 131px;
+  }
+  .fearure-head {
+    padding-left: 23px;
+    padding-bottom: 50px;
+  }
+  .feature-content{
+    padding-left: 23px;
+  }
+  .feature-left > h3 {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .feature-left > p {
+    padding: 0;
+    padding-bottom: 25px;
+  }
+  .feature-right img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 75%;
+  }
+  .feature-content-list ul li {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+  .feature-left > .img-wrap {
+    padding: 0;
+    padding-top: 24px;
+  }
+  .feature-left > .img-wrap a {
+    padding-bottom: 50px;
+  }
+  /* Feature-Weap-End */
+
+  /* App Review Start */
+  .app-review-wrap {
+    padding-bottom: 100px;
+  }
+  .card-content {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  /* App Review End */
+
+  /* Progress Content Start  */
+  .progress-content-left{
+    padding-left: 31px;
+  }
+  .progress-content-left .section-title{
+    padding-bottom: 24px;
+  }
+  .progress-content-right {
+    padding-top: 80px;
+  }
+  .progress-content-right img {
+    display: flex;
+    align-items: center;
+    max-width: 75%;
+  }
+  .progress-content-left .section-title > h2 {
+    max-width: 550px;
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  /* Progress Content End  */
+
+  /* Footer Start  */
+  .footer-wrap {
+    padding-top: 55px;
+  }
+  .footer-main-wrap {
+    padding: 0 20px;
+    padding-bottom: 59px;
+  }
+  .footer-main-wrap footer .container {
+    padding: 0 20px;
+  }
+  .footer-top {
+    padding-bottom: 34px;
+  }
+  .footer-left {
+    padding-bottom: 81px;
+  }
+  .footer-left-logo {
+    padding-bottom: 6px;
+  }
+  .footer-left p {
+    padding-bottom: 19px;
+  }
+  .footer-menu {
+    justify-content: start;
+    padding-bottom: 81px;
+  }
+  .footer-menu-list {
+    padding-right: 78px;
+  }
+  /* Foogter End  */
+  /* Mobile Menu  */
+  .mobile-menu-wrap {
+    right: -100%;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    position: fixed;
+    top: 126px;
+    transition: all 0.5s ease-in-out;
+    background: #080b12;
+    z-index: 20;
+    height: calc(100% - 66px);
+    overflow-y: auto;
+  }
+  .hamburger {
+    display: block;
+  }
+  .open {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  .mobile-menu ul {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mobile-menu ul li {
+    padding: 0;
+    width: 100%;
+  }
+
+  .mobile-menu-list ul li a {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px; /* 150% */
+    background: linear-gradient(
+      136deg,
+      rgba(255, 244, 204, 0.78) 0%,
+      rgba(255, 255, 255, 0.78) 13.02%,
+      rgba(142, 171, 255, 0.78) 27.08%,
+      rgba(171, 192, 255, 0.84) 45.31%,
+      #fff 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .img-wrap-mobile-menu {
+    padding-top: 20px;
+    padding-bottom: 52px;
+  }
+  .footer-menu-mobile {
+    padding-bottom: 46px;
+  }
+  .footer-copyright-mobile {
+    padding-top: 23px;
+    padding-bottom: 41px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Banner-Start */
+  .page-head > h1 {
+    font-size: 50px;
+    width: 100%;
+    max-width: 340px;
+  }
+  .banner-right-squre {
+    width: 70%;
+    margin: 0 auto;
+  }
+ 
+
+  /* Banner-End */
+
+  /* Snoring Management Start */
+  .section-title {
+    padding: 0 40px;
+  }
+  .snoring-head > p {
+    padding: 0;
+    font-size: 20px;
+  }
+  .snoring-head {
+    padding-bottom: 45px;
+  }
+  .section-title > h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .snoring-head .section-title h2 {
+    font-size: 36px;
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 24px;
+  }
+  .snoring-head > p {
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: normal;
+  }
+  .snoring-left-img {
+    width: 100%;
+  }
+  /* Snoring Management End */
+
+  /* Feature Start  */
+  .fearure-head .section-title h2 {
+    font-size: 36px;
+    max-width: 380px;
+    width: 100%;
+    line-height: normal;
+  }
+  .feature-left {
+    padding-bottom: 20px;
+  }
+  .feature-left > h3 {
+    font-size: 24px;
+    padding: 0 40px;
+    padding-bottom: 30px;
+    max-width: 440px;
+    width: 100%;
+  }
+  .feature-left > p {
+    padding: 0 40px;
+  }
+  .feature-left > .img-wrap {
+    padding: 0 40px;
+    padding-top: 25px;
+  }
+  .feature-right img {
+    width: 100%;
+  }
+  /* Feature End  */
+
+  /* App Review Start  */
+
+  /* App Review End  */
+
+  /* Prgress Track Start */
+
+  .progress-content-left .image-wrap {
+    padding: 0 40px;
+  }
+  .progress-content-left .section-title > h2 {
+    width: 100%;
+    max-width: 344px;
+  }
+  .banner-left-content p {
+    font-size: 20px;
+  }
+  .progress-content-right img {
+    width: 100%;
+  }
+
+  /* Prgress Track End */
+}
