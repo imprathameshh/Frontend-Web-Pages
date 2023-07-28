@@ -1,0 +1,742 @@
+<!doctype html>
+<html>
+
+<head>
+	<!-- Basic Page Info -->
+	<meta charset="UTF-8">
+
+	<!-- Theme Color -->
+	<meta name="theme-color" content="#FFF">
+
+	<!-- Title -->
+	<title>Snore Sense</title>
+
+	<!-- Site favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Outfit:wght@500&display=swap"
+		rel="stylesheet">
+	<!-- Icon Font -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/awesome/css/font-awesome.css">
+
+	<!-- CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/js/slick-1.8.1/slick/slick.css"/> -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
+
+</head>
+
+<body>
+
+	<!-- Header Start -->
+	<div class="header-wrap" id="navbar">
+		<header>
+			<div class="container">
+				<div class="header-content">
+					<div class="logo">
+						<a href="#"><svg width="166" height="24" viewBox="0 0 166 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.672 23.32C5.12 23.32 2.784 22.04 0.832 19.544L3.328 17.048C4.576 18.84 6.144 19.896 8.8 19.896C11.264 19.896 12.864 18.808 12.864 17.016C12.864 11.768 2.24 14.52 2.24 6.52C2.24 2.584 5.44 0.279999 9.568 0.279999C12.512 0.279999 14.88 1.56 16.352 3.352L13.856 5.848C12.576 4.408 11.264 3.704 9.472 3.704C7.232 3.704 5.92 4.632 5.92 6.264C5.92 11 16.544 8.472 16.544 16.792C16.544 20.824 13.504 23.32 8.672 23.32ZM19.7333 23V7.64H23.2533V9.4C24.3093 8.088 25.9413 7.32 27.8293 7.32C31.2853 7.32 33.7812 10.36 33.7812 13.368V23H30.2613V14.136C30.2613 12.088 28.8213 10.616 26.7733 10.616C24.7253 10.616 23.2533 12.088 23.2533 14.136V23H19.7333ZM44.3983 23.32C39.9183 23.32 36.3663 19.768 36.3663 15.288C36.3663 10.84 39.8863 7.32 44.3983 7.32C48.9103 7.32 52.4623 10.808 52.4623 15.288C52.4623 19.8 48.9423 23.32 44.3983 23.32ZM44.3983 19.928C47.0223 19.928 48.8463 18.008 48.8463 15.288C48.8463 12.6 46.9903 10.712 44.3983 10.712C41.8063 10.712 39.9823 12.632 39.9823 15.288C39.9823 18.008 41.8063 19.928 44.3983 19.928ZM55.3895 23V7.64H58.9095V9.24C59.7735 8.024 61.1175 7.32 62.9095 7.32C64.4455 7.32 65.6615 7.864 66.7175 9.08L64.4135 11.448C63.8375 10.872 63.1975 10.616 62.3015 10.616C60.3175 10.616 58.9095 11.832 58.9095 14.456V23H55.3895ZM75.088 23.32C70.48 23.32 66.96 19.896 66.96 15.32C66.96 10.808 70.448 7.32 74.896 7.32C79.152 7.32 82.224 10.552 82.224 14.968C82.224 15.48 82.16 15.992 82.032 16.632H70.576C71.088 18.744 72.752 20.024 75.056 20.024C76.624 20.024 78.032 19.48 78.96 18.392L81.2 20.664C79.696 22.424 77.488 23.32 75.088 23.32ZM74.832 10.552C72.656 10.552 71.088 11.768 70.576 13.752H78.768C78.32 11.704 76.976 10.552 74.832 10.552Z"
+									fill="white" />
+								<path
+									d="M91.7658 23.32C88.2138 23.32 85.8778 22.04 83.9258 19.544L86.4218 17.048C87.6698 18.84 89.2378 19.896 91.8938 19.896C94.3578 19.896 95.9578 18.808 95.9578 17.016C95.9578 11.768 85.3338 14.52 85.3338 6.52C85.3338 2.584 88.5338 0.279999 92.6618 0.279999C95.6058 0.279999 97.9738 1.56 99.4458 3.352L96.9498 5.848C95.6698 4.408 94.3578 3.704 92.5658 3.704C90.3258 3.704 89.0138 4.632 89.0138 6.264C89.0138 11 99.6378 8.472 99.6378 16.792C99.6378 20.824 96.5978 23.32 91.7658 23.32ZM109.776 23.32C105.168 23.32 101.648 19.896 101.648 15.32C101.648 10.808 105.136 7.32 109.584 7.32C113.84 7.32 116.912 10.552 116.912 14.968C116.912 15.48 116.847 15.992 116.72 16.632H105.264C105.776 18.744 107.44 20.024 109.744 20.024C111.312 20.024 112.72 19.48 113.648 18.392L115.888 20.664C114.384 22.424 112.176 23.32 109.776 23.32ZM109.52 10.552C107.344 10.552 105.776 11.768 105.264 13.752H113.456C113.008 11.704 111.664 10.552 109.52 10.552ZM119.733 23V7.64H123.253V9.4C124.309 8.088 125.941 7.32 127.829 7.32C131.285 7.32 133.781 10.36 133.781 13.368V23H130.261V14.136C130.261 12.088 128.821 10.616 126.773 10.616C124.725 10.616 123.253 12.088 123.253 14.136V23H119.733ZM142.382 23.32C139.79 23.32 137.486 22.296 136.014 20.504L138.254 18.264C139.31 19.512 140.686 20.12 142.446 20.12C144.014 20.12 144.846 19.64 144.846 18.744C144.846 15.96 136.878 17.624 136.878 12.056C136.878 9.112 139.022 7.32 142.542 7.32C145.006 7.32 146.926 8.216 148.206 9.944L145.966 12.184C145.07 11.064 143.95 10.52 142.446 10.52C141.038 10.52 140.238 10.968 140.238 11.768C140.238 14.296 148.206 12.792 148.206 18.456C148.206 21.464 145.966 23.32 142.382 23.32ZM158.244 23.32C153.636 23.32 150.116 19.896 150.116 15.32C150.116 10.808 153.604 7.32 158.052 7.32C162.308 7.32 165.38 10.552 165.38 14.968C165.38 15.48 165.316 15.992 165.188 16.632H153.732C154.244 18.744 155.908 20.024 158.212 20.024C159.78 20.024 161.188 19.48 162.116 18.392L164.356 20.664C162.852 22.424 160.644 23.32 158.244 23.32ZM157.988 10.552C155.812 10.552 154.244 11.768 153.732 13.752H161.924C161.476 11.704 160.132 10.552 157.988 10.552Z"
+									fill="#6C8FF7" />
+							</svg>
+						</a>
+					</div>
+					<div class="header-menu mobile-menu ">
+						<ul>
+							<li><a href="#">How it works</a></li>
+							<li><a href="#benefits">Benefits</a></li>
+							<li><a href="#feature">Features</a></li>
+							<li><a href="#testimonial">Testimonials</a></li>
+						</ul>
+					</div>
+					<div class="header-right">
+						<a href="https://www.apple.com/in/app-store/">
+							<img src="assets/images/App Store.svg">
+						</a>
+					</div>
+					<div class="hamburger">
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24" fill="none">
+							<path
+								d="M30 1.5C30 0.6705 29.328 0 28.5 0H9C8.172 0 7.5 0.6705 7.5 1.5C7.5 2.3295 8.172 3 9 3H28.5C29.328 3 30 2.3295 30 1.5ZM1.5 10.5H28.5C29.328 10.5 30 11.1705 30 12C30 12.8295 29.328 13.5 28.5 13.5H1.5C0.672001 13.5 0 12.8295 0 12C0 11.1705 0.672001 10.5 1.5 10.5ZM15 21H28.5C29.328 21 30 21.6705 30 22.5C30 23.3295 29.328 24 28.5 24H15C14.172 24 13.5 23.3295 13.5 22.5C13.5 21.6705 14.172 21 15 21Z"
+								fill="white" />
+						</svg>
+					</div>
+				</div>
+				<!-- Mobile Menu Start  -->
+				<div class="mobile-menu-wrap">
+					<div class="container">
+						<div class="mobile-menu-content">
+							<div class="mobile-menu-list">
+								<ul>
+									<li><a href="#">How it works</a></li>
+									<li><a href="#benefits">Benefits</a></li>
+									<li><a href="#feature">Features</a></li>
+									<li><a href="#testimonial">Testimonials</a></li>
+								</ul>
+							</div>
+
+							<div class="img-wrap-mobile-menu">
+								<a href="#"><img src="assets/images/AppStoreBlack.svg" alt="App Stoare"></a>
+							</div>
+
+
+							<div class="footer-menu footer-menu-mobile ">
+
+								<div class="footer-menu-list ">
+									<h4>Support</h4>
+									<div class="footer-menu-body">
+										<ul>
+											<li><a href="#">Contact us </a></li>
+											<li><a href="#">FAQ</a></li>
+											<li><a href="#">Privacy Policy</a></li>
+											<li><a href="#">Terms of Use</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer-menu-list  ">
+									<h4>Company</h4>
+									<div class="footer-menu-body">
+										<ul>
+											<li><a href="#">About</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Press</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<ul class="footer-left-social footer-left-social-mobile ">
+								<li>
+									<a
+										href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569891&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D9061741%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwuqiiBhBtEiwATgvixIktrOZA21Qc8G2tYgfnR3e87jmoqPrSUHI2tMmY-m_Urb_9WrWemBoCRH4QAvD_BwE"><img
+											src="assets/images/facebook.svg" alt=""></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"><img
+											src="assets/images/tweeter.svg" alt=""></a>
+								</li>
+							</ul>
+
+							<div class="footer-copyright footer-copyright-mobile ">
+								<p>© 2023 SnoreSense. All rights reserved</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- Mobile Menu End -->
+			</div>
+		</header>
+	</div>
+	<!-- Header End -->
+
+	<!-- Banner Section Start  -->
+	<div class="banner-wrap">
+		<div class="container">
+			<div class="banner-content">
+				<div class="banner-left">
+					<div class="banner-left-content">
+						<div class="image-wrap"><img src="assets/images/screen.svg" alt=""></div>
+						<div class="page-head">
+							<h1>SnoreSense: <br> Record your snoring</h1>
+						</div>
+						<p>SnoreSense is the No.1 iOS for recording and tracking snoring and discovering solutions. </p>
+						<div class="image-wrap">
+							<a href="https://www.apple.com/in/app-store/"><img src="assets/images/AppStoreBlack.svg" alt=""></a>
+						</div>
+						<div class="banner-wordwild">
+							<div class="banner-wordwild-content">
+								<div class="banner-wordwild-left">
+									<p>Over 10,000 helped worldwide</p>
+								</div>
+								<div class="banner-wordwild-right">
+									<p>10,000+ downloads</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="banner-right">
+					<div class="banner-right-square">
+						<div class="banner-right-img">
+							<img src="assets/images/phone-14-pro.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner Section End  -->
+
+	<!-- Snoring Management Start  -->
+	<div class="snoring-management-wrap" id="benefits">
+		<div class="container">
+			<div class="snoring-head">
+				<div class="section-title">
+					<h2>The Snoring Management App for iOS</h2>
+				</div>
+				<p>SnoreSense has helped 10,000 of people to understand their snoring problem and to discover solutions to
+					improve their sleep.</p>
+			</div>
+			<div class="snoring-content">
+
+				<div class="snoring-content-right">
+					<div class="snoring-content-list">
+						<ul>
+							<li>
+								<div class="snoring-card">
+									<div class="snoring-card-img">
+										<img src="assets/images/icons/management-cart-1.svg" alt="">
+									</div>
+									<div class="snoring-card-content">
+										<h3>Discover solutions</h3>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+											classical Latin literature from 45 BC, making it over 2000</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="snoring-card">
+									<div class="snoring-card-img">
+										<img src="assets/images/icons/management-cart-2.svg" alt="">
+									</div>
+									<div class="snoring-card-content">
+										<h3>Discover snore causing factors</h3>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+											classical Latin literature from 45 BC, making it over 2000</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="snoring-card">
+									<div class="snoring-card-img">
+										<img src="assets/images/icons/management-cart-3.svg" alt="">
+									</div>
+									<div class="snoring-card-content">
+										<h3>See patterns</h3>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+											classical Latin literature from 45 BC, making it over 2000</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="snoring-card">
+									<div class="snoring-card-img">
+										<img src="assets/images/icons/management-cart-4.svg" alt="">
+									</div>
+									<div class="snoring-card-content">
+										<h3>Update lifestyle choices</h3>
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+											classical Latin literature from 45 BC, making it over 2000</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="snoring-content-left">
+					<div class="snoring-left-img">
+						<img src="assets/images/management-app-media.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Snoring Management End  -->
+
+	<!-- Features Section Start-->
+	<div class="feature-wrap" id="feature">
+		<div class="container">
+			<div class="fearure-head">
+				<div class="section-title">
+					<h2>Enjoy the features of the SnoreSense app</h2>
+				</div>
+			</div>
+
+			<div class="feature-content-list">
+				<ul>
+					<li>
+						<div class="feature-content row">
+							<div class="feature-left col-lg-6 col-sm-12">
+								<h3>Get a snore score by recording duration</h3>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+									totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+									sunt explicabo.</P>
+								<P>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+									magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+									quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+									labore et dolore magnam aliquam quaerat voluptatem.</p>
+							</div>
+							<div class="feature-right col-lg-6  col-sm-12">
+								<div class="img-wrap"><img src="assets/images/Mask-group-1.png" alt=""></div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="feature-content row">
+							<div class="feature-left col-lg-6 col-sm-12">
+								<h3>Intensity of your snoring</h3>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+									totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+									sunt explicabo. </P>
+								<P>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+									magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+									quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+									labore et dolore magnam aliquam quaerat voluptatem.</p>
+								<div class="img-wrap"><a href="https://www.apple.com/in/app-store/"><img
+											src="assets/images/AppStoreBlack.svg" alt=""></a>
+								</div>
+							</div>
+							<div class="feature-right col-lg-6  col-sm-12">
+								<div class="img-wrap"> <img src="assets/images/Mask-group-2.png" alt=""></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Features Section End-->
+
+	<!-- App Review Start-->
+	<div class="app-review-wrap" id="testimonial">
+		<div class="app-container">
+			<div class="app-review-head">
+				<div class="section-title">
+					<h2>App reviews</h2>
+				</div>
+			</div>
+
+			<div class="app-review-content">
+				<div class="app-review-card">
+					<ul class="slider-nav">
+						<li>
+							<div class="card-content">
+								<div class="rating">
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+								</div>
+								<p>I am an ENT Physician who recommends this app. Rarely have I found an app that demonstrates a health
+									issue so well and additionally shows treatment results so simply and efficiently.</p>
+								<div class="review-profile">
+									<div class="img-wrap"><img src="assets/images/Ellipse9.svg" alt=""></div>
+									<h3>Filip Mravic</h3>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="card-content">
+								<div class="rating">
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+								</div>
+								<p>This must be one of the best apps out there. Totally brilliant and so simple to use. It’s very odd
+									hearing yourself …and what others hear…but cannot recommend this app enough. A million gold stars!!
+								</p>
+								<div class="review-profile">
+									<div class="img-wrap"><img src="assets/images/Ellipse10.svg" alt=""></div>
+									<h3>Markus Pint</h3>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="card-content">
+								<div class="rating">
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+								</div>
+								<p>This must be one of the best apps out there. Totally brilliant and so simple to use. It’s very odd
+									hearing yourself …and what others hear…but cannot recommend this app enough. A million gold stars!!
+								</p>
+								<div class="review-profile">
+									<class class="img-wrap"><img src="assets/images/Ellipse11.svg" alt=""></class>
+									<h3>John Makeover</h3>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="card-content">
+								<div class="rating">
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+								</div>
+								<p>I am an ENT Physician who recommends this app. Rarely have I found an app that demonstrates a health
+									issue so well and additionally shows treatment results so simply and efficiently.</p>
+								<div class="review-profile">
+									<div class="img-wrap"><img src="assets/images/Ellipse9.svg" alt=""></div>
+									<h3>Filip Mravic</h3>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="card-content">
+								<div class="rating">
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+								</div>
+								<p>This must be one of the best apps out there. Totally brilliant and so simple to use. It’s very odd
+									hearing yourself …and what others hear…but cannot recommend this app enough. A million gold stars!!
+								</p>
+								<div class="review-profile">
+									<div class="img-wrap"><img src="assets/images/Ellipse10.svg" alt=""></div>
+									<h3>Markus Pint</h3>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="card-content">
+								<div class="rating">
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+										<path
+											d="M5.04894 0.927049C5.3483 0.00573826 6.6517 0.00573993 6.95106 0.927051L7.5716 2.83688C7.70547 3.2489 8.08943 3.52786 8.52265 3.52786H10.5308C11.4995 3.52786 11.9023 4.76748 11.1186 5.33688L9.49395 6.51722C9.14347 6.77187 8.99681 7.22323 9.13068 7.63525L9.75122 9.54508C10.0506 10.4664 8.9961 11.2325 8.21238 10.6631L6.58778 9.48278C6.2373 9.22813 5.7627 9.22814 5.41221 9.48278L3.78761 10.6631C3.0039 11.2325 1.94942 10.4664 2.24878 9.54508L2.86932 7.63526C3.00319 7.22323 2.85653 6.77186 2.50604 6.51722L0.881445 5.33688C0.0977311 4.76748 0.500508 3.52786 1.46923 3.52786H3.47735C3.91057 3.52786 4.29453 3.2489 4.4284 2.83688L5.04894 0.927049Z"
+											fill="#FFB800" />
+									</svg>
+								</div>
+								<p>This must be one of the best apps out there. Totally brilliant and so simple to use. It’s very odd
+									hearing yourself …and what others hear…but cannot recommend this app enough. A million gold stars!!
+								</p>
+								<div class="review-profile">
+									<div class="img-wrap"><img src="assets/images/Ellipse11.svg" alt=""></div>
+									<h3>John Makeover</h3>
+								</div>
+							</div>
+						</li>
+
+
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- App Review End-->
+
+	<!-- Progress Track Start  -->
+	<div class="progress-track-wrap">
+		<div class="container">
+			<div class="progress-content row">
+				<div class="progress-content-left col-lg-6">
+					<div class="section-title">
+						<h2>Snore & track your progress today</h2>
+					</div>
+					<div class="image-wrap">
+						<a href="https://www.apple.com/in/app-store/"><img src="assets/images/AppStoreBlack.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="progress-content-right col-lg-6">
+					<div class="image-wrap">
+						<img src="assets/images/track-your-progress-media.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Progress Track End  -->
+
+	<!-- Footer Start  -->
+	<!-- FooterSec Start -->
+
+	<div class="footer-main-wrap">
+		<div class="footer-wrap">
+			<footer>
+				<div class="container">
+					<div class="footer-content">
+
+						<div class="footer-top row">
+							<div class="footer-left col-lg-5">
+								<div class="footer-left-logo">
+									<a href="#"><img src="assets/images/screen-1.svg" alt=""></a>
+									<h5>SnoreSense</h5>
+								</div>
+								<p>The Snoring Management App for iOS</p>
+								<ul class="footer-left-social">
+									<li>
+										<a
+											href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569891&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D9061741%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwuqiiBhBtEiwATgvixIktrOZA21Qc8G2tYgfnR3e87jmoqPrSUHI2tMmY-m_Urb_9WrWemBoCRH4QAvD_BwE"><img
+												src="assets/images/facebook.svg" alt=""></a>
+									</li>
+									<li>
+										<a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"><img
+												src="assets/images/tweeter.svg" alt=""></a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="footer-menu col-lg-5">
+
+								<div class="footer-menu-list">
+									<h4>Support</h4>
+									<div class="footer-menu-body">
+										<ul>
+											<li><a href="#">Contact us </a></li>
+											<li><a href="#">FAQ</a></li>
+											<li><a href="#">Privacy Policy</a></li>
+											<li><a href="#">Terms of Use</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="footer-menu-list  ">
+									<h4>Company</h4>
+									<div class="footer-menu-body">
+										<ul>
+											<li><a href="#">About</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Press</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="footer-appstore col-lg-2">
+								<div class="image-wrap">
+									<a href="https://www.apple.com/in/app-store/"><img src="assets/images/App Store.svg" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer-copyright">
+						<p>© 2023 SnoreSense. All rights reserved</p>
+					</div>
+
+
+				</div>
+		</div>
+		</footer>
+	</div>
+	</div>
+
+
+	<!-- FooterSec End -->
+	<!-- JS File -->
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- <script src="assets/js/jquery.validate.min.js"></script> -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- <script src="assets/js/slick.min.js"></script> -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<!-- Custom JS File -->
+	<script src="assets/js/setting.js"></script>
+	<!-- Footer End -->
+
+
+
+	<script>
+
+		// Change Background (On Scroll)
+		function changeBg() {
+			var navbar = document.querySelector('header');
+			var scrollValue = window.scrollY;
+			if (scrollValue < 50) {
+				navbar.classList.remove('scrolled');
+			} else {
+				navbar.classList.add('scrolled');
+			}
+		}
+		window.addEventListener('scroll', changeBg);
+
+
+		// Scroll 
+		jQuery(document).ready(function () {
+
+
+			$('.hamburger').on('click', function () {
+				$(this).toggleClass('open');
+			});
+
+			$(".hamburger").on("click", function () {
+				$(".mobile-menu-wrap").toggleClass("open");
+			});
+
+			jQuery('.slider-nav').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				dots: true,
+				centerMode: true,
+				focusOnSelect: true,
+				arrows: false,
+				dots: false,
+				autoplay: true,
+				centerPadding: '15px',
+				cssEase: 'ease-in-out',
+				pauseOnHover: true,
+				responsive: [
+					{
+						breakpoint: 991,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+						}
+					},
+					{
+						breakpoint: 767,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						}
+					}
+				]
+			});
+		})
+	</script>
+</body>
+
+</html>

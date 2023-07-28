@@ -10,7 +10,7 @@
 					<div class="footer-left col-lg-5">
 						<div class="footer-left-logo">
 							<a href="#"><img src="assets/images/screen-1.svg" alt=""></a>
-							<h2>SnoreSense</h2>
+							<h5>SnoreSense</h5>
 						</div>
 						<p>The Snoring Management App for iOS</p>
 						<ul class="footer-left-social">
@@ -36,7 +36,6 @@
 								</ul>
 							</div>
 						</div>
-						
 				
 						<div class="footer-menu-list  ">
 							<h4>Company</h4>
@@ -52,7 +51,8 @@
 					
 						
 					<div class="footer-appstore col-lg-2">
-						<a href="https://www.apple.com/in/app-store/"><img src="assets/images/App Store.svg" alt=""></a>
+						<div class="image-wrap">
+						<a href="https://www.apple.com/in/app-store/"><img src="assets/images/App Store.svg" alt=""></a></div>
 					</div>
 				</div>
 				</div>
